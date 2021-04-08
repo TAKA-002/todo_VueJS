@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 36px;
+  border-bottom: 2px solid #999;
+}
+
+.registration__input-title {
+  font-size: 20px;
+}
+
+.registration__input-value {
+  font-size: 18px;
+}
+
+.registration__input-area {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.todo__list {
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.todo__checkbox {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.todo__detail {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-left: 15px;
+  background-color: bisque;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.3;
+  transition: opacity 0.3;
+}
+/*# sourceMappingURL=style.css.map */

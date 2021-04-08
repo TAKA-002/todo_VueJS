@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "todoitem": "仕事をする",
+    "status": 0
+  },
+  {
+    "id": 2,
+    "todoitem": "朝起きる",
+    "status": 0
+  },
+  {
+    "id": 3,
+    "todoitem": "ゲームをする",
+    "status": 0
+  },
+  {
+    "id": 4,
+    "todoitem": "勉強する",
+    "status": 0
+  },
+  {
+    "id": 5,
+    "todoitem": "寝る",
+    "status": 0
+  },
+  {
+    "id": 6,
+    "todoitem": "朝ごはんを食べる",
+    "status": 0
+  }
+]

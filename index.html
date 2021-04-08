@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Vue</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container" id="app">
+      <!-- 見出し -->
+      <h1>Todo List in Vue</h1>
+
+      <!-- 登録エリア -->
+      <div class="registration">
+        <h2 class="registration__input-title">入力内容</h2>
+        <p class="registration__input-value">{{ inputValue }}</p>
+        <input class="registration__input-area" type="text" placeholder="todoを入力して登録ボタンを押してください。" maxlength="50" size="50" onInput="inputAction(event)" />
+        <button class="btn">登録</button>
+      </div>
+
+      <!-- todo表示エリア -->
+      <ul class="todo">
+        <li id="list--1" class="todo__list">
+          <input id="list-item-1" class="todo__checkbox" type="checkbox" />
+          <label class="todo__detail" for="list-item-1">todo1</label>
+          <button class="btn">削除</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./js/vue.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
