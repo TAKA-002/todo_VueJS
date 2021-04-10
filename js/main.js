@@ -1,12 +1,21 @@
-var data = {
-  inputValue: "ここに入力内容が表示される",
-};
-
 var vm = new Vue({
   el: "#app",
-  data: data,
-});
+  data: {
+    newTodo: "",
+    todos: ["仕事をする", "朝起きる", "ゲームをする"],
+  },
 
-function inputAction(event) {
-  data.inputValue = event.target.value;
-}
+  methods: {
+    addItem: function () {
+      this.todos.push(this.newTodo);
+      this.newTodo = "";
+    },
+
+    deleteItem: function (index) {
+      if (confirm("削除してよろしいですか？")) {
+        this.todos.splice(index, 1);
+      }
+      return;
+    },
+  },
+});

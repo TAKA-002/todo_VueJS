@@ -7,11 +7,12 @@ body {
 .container {
   width: 1000px;
   margin: 0 auto;
+}
 
-  h1 {
-    font-size: 36px;
-    border-bottom: 2px solid #999;
-  }
+.heading1 {
+  padding-top: 25px;
+  font-size: 36px;
+  border-bottom: 2px solid #999;
 }
 
 .registration {
@@ -32,15 +33,24 @@ body {
 }
 
 .todo {
+  padding: 0;
+
   &__list {
+    margin-bottom: 5px;
     padding: 0 20px;
     list-style-type: none;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
+
   &__checkbox {
     transform: scale(2);
     vertical-align: middle;
     margin-right: 10px;
   }
+
   &__detail {
     font-size: 16px;
   }

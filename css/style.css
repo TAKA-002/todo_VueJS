@@ -9,7 +9,8 @@ body {
   margin: 0 auto;
 }
 
-.container h1 {
+.heading1 {
+  padding-top: 25px;
   font-size: 36px;
   border-bottom: 2px solid #999;
 }
@@ -27,9 +28,18 @@ body {
   border-radius: 4px;
 }
 
+.todo {
+  padding: 0;
+}
+
 .todo__list {
+  margin-bottom: 5px;
   padding: 0 20px;
   list-style-type: none;
+}
+
+.todo__list:last-child {
+  margin-bottom: 0;
 }
 
 .todo__checkbox {
